@@ -9,7 +9,8 @@ public class Obstacle : MonoBehaviour
     [SerializeField] private float minSpeed = 1f;
     [SerializeField] private float maxSpeed = 3f;
     [SerializeField] private ParticleSystem particle;
-    public float delay = 1f;
+    [SerializeField] private float delay = 1f;
+    [SerializeField] private AudioSource audioDistroy;
     
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,7 @@ public class Obstacle : MonoBehaviour
     {
         Debug.Log("Cube !!!");
         particle.Play();
+        audioDistroy.Play();
         foreach (Transform child in transform)
         {
             MeshRenderer mesh = child.GetComponent<MeshRenderer>();

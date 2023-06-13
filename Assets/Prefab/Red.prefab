@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6913215259702390282
 Transform:
   m_ObjectHideFlags: 0
@@ -4949,7 +4949,7 @@ GameObject:
   - component: {fileID: 542211728313030402}
   m_Layer: 10
   m_Name: Cube
-  m_TagString: Blue
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5032,7 +5032,7 @@ GameObject:
   - component: {fileID: 7258070947109005584}
   m_Layer: 10
   m_Name: Cube (1)
-  m_TagString: Blue
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
